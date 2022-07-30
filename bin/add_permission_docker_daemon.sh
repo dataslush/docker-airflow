@@ -1,1 +1,1 @@
-sudo setfacl --modify user:<user-id>:rw /var/run/docker.sock
+sudo setfacl --modify user:$(id -u):rw /var/run/docker.sock
