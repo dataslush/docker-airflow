@@ -1,0 +1,1 @@
+sudo setfacl --modify user:<user-id>:rw /var/run/docker.sock
