@@ -1,5 +1,5 @@
 # docker-airflow
-Starter project for running Airflow from docker compose file and task as [docker operator](https://airflow.apache.org/docs/apache-airflow/stable/concepts/taskflow.html) using new TaskFlow API.
+Quick Start project for running Airflow from docker compose file and task as [docker operator](https://airflow.apache.org/docs/apache-airflow/stable/concepts/taskflow.html) using new TaskFlow API.
 ## Local Setup
 
 Generate your own fernet key
