@@ -20,7 +20,7 @@ Setting the right Airflow User
 ```bash
 id -u
 ```
-3. Add path to host [output/](output) directory to HOST_OUTPUT_DIR env variable
+3. Add path to host [output/](output) directory to **HOST_OUTPUT_DIR** env variable
 4. Run below command to add permission to docker daemon so Airflow can run docker containers
 ```bash
 bash bin/add_permission_docker_daemon.sh
@@ -30,7 +30,7 @@ bash bin/add_permission_docker_daemon.sh
 docker build -f dockerfiles/load.Dockerfile -t load .
 docker build -f dockerfiles/extract.Dockerfile -t extract .
 ```
-6. Setup postgres Server, you can change Airflow username and password under ***.env** file. This is one time setup.
+6. Setup postgres Server, you can change Airflow username and password under **.env** file. This is one time setup.
 ```bash
 bash bin/initial_setup.sh
 ```
