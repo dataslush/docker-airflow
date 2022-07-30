@@ -22,7 +22,7 @@ Setting the right Airflow User
 id -u
 ```
 3. Add path to host [output/](output) directory to **HOST_OUTPUT_DIR** env variable
-4. Run below command to add permission to docker daemon so Airflow can run docker containers
+4. Run below command to add permission to docker daemon so Airflow can run docker containers on host machine
 ```bash
 bash bin/add_permission_docker_daemon.sh
 ```
