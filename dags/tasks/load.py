@@ -17,5 +17,5 @@ from .settings import HOST_OUTPUT_DIR
 )
 def load(title):
     import pandas as pd
-    df = pd.DataFrame([title])
+    df = pd.DataFrame(data=title)
     df.to_csv("output/titles.csv",index=False)

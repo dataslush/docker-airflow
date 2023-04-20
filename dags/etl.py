@@ -10,7 +10,8 @@ from tasks import extract, transform, load
     max_active_runs=1,
 )
 def etl():
-    load(transform(extract()['response']))
+    t = transform(extract()['response'])
+    load(t['data'])
 
 
 etl_dag = etl()
