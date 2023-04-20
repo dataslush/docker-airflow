@@ -5,7 +5,7 @@ from tasks import extract, transform, load
 
 @dag(
     schedule_interval=None,
-    start_date=datetime(2022, 7, 30),
+    start_date=datetime(2023, 4, 20),
     concurrency=1,
     max_active_runs=1,
 )
